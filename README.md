@@ -1,27 +1,62 @@
-# LittleBlackBook
+# Little Black Book 
 
-This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 12.0.4.
+This application was developed to retieve and display data into an Angular application by sending HTTP requests to a public REST API. This was built as a coding challenge for a technical interview for Nuvalence.io. to show overall understanding of the Angular frontend framework for building UI's and transferring data between client and server. The application is structured with the intention to keep shared files in the 'shared' directory, such as services and interfaces. This application retrieves random demographic and other pretend personal data and returns in the response, displaying in the UI. It is working, and there is more work needed to perfect the UI. This project was developed as a coding challenge to show my Angular development skills, especially data flow between the client and RESTful API as part of the interview process for an Angular Developer position with NuValence.io.
 
-## Development server
+## Getting Started
 
-Run `ng serve` for a dev server. Navigate to `http://localhost:4200/`. The app will automatically reload if you change any of the source files.
+```
+npm install -g @angular/cli@9
 
-## Code scaffolding
+```
+npm install
+```
 
-Run `ng generate component component-name` to generate a new component. You can also use `ng generate directive|pipe|service|class|guard|interface|enum|module`.
+Set up Angular environment locally:
+To run this project locally, you will need to install the Angular Command Line Interface ('AngularCLI' is the common term) by running the following command from terminal, powershell, or bash:
 
-## Build
+npm install -g npm
 
-Run `ng build` to build the project. The build artifacts will be stored in the `dist/` directory.
+npm install -g @angular/cli
 
-## Running unit tests
+Note: If you have a permissions/administrator error while installing globally (with -g), add the word 'sudo' before the global installation
 
-Run `ng test` to execute the unit tests via [Karma](https://karma-runner.github.io).
+sudo npm install -g @angular/cli
+Install Angular Material Component Library
+Angular Material is a powerful Angular component library, developed by Google, for Angular applications that gives developers access to a range of modern UI components that work across web, mobile, and desktop applications with minimal custom CSS and setup.
 
-## Running end-to-end tests
+To setup Angular Material locally, run the following from your command line:
 
-Run `ng e2e` to execute the end-to-end tests via a platform of your choice. To use this command, you need to first add a package that implements end-to-end testing capabilities.
+ng add @angular/material
+For more information on integrating Angular Material components, review the Material documentation here:
 
-## Further help
+https://material.angular.io/guides
+Install npm dependencies from the command line by running:
 
-To get more help on the Angular CLI use `ng help` or go check out the [Angular CLI Overview and Command Reference](https://angular.io/cli) page.
+npm install
+To RUN the application, run the following command:
+ng serve or
+npm run start
+Navigate to localhost:4200 and you should see this in the URL:
+
+http://localhost:4200/
+
+To TEST code coverage, run the following command:
+npm run test or
+ng test
+To generate a TEST REPORT of detailed code coverage, run the following command:
+npm run coverage or
+ng test --code-coverage
+Have fun searching for your favorite movies and contributing to the UI!
+
+Please reach out if you woud like to collaborate and continue learning cool coding things while adding to this fun practice application!
+
+
+### Awesome Relative History: In the mid 1800's Ada Lovelace wrote an article with an Italian engineer Luigi Federico Menabrea for a Swiss journal. She realized how line by line CODES could be created for Charles' Byron's first computer, the 'analytical engine' to handle letters and symbols along with numbers. She also theorized a method for the engine to repeat a series of instructions, a process known as LOOPING with CONDITIONALS that computer programs use today. Ada also offered up other forward-thinking concepts in the Swiss Journal. For her work, Lovelace is often considered to be the first computer programmer.
+
+
+
+marie.nabors@gmail.com
+
+
+
+
